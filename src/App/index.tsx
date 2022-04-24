@@ -24,6 +24,8 @@ const App: React.FC<Props & RouteComponentProps> = ({ path }) => {
       LocalStorageKey.APP_STATE,
       JSON.stringify(appState) // convert JavaScript Object to string
     )
+    // edit by Ka 
+    // console.log(JSON.stringify(appState))
   }, [appState])
 
   return (
